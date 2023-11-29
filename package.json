@@ -32,6 +32,10 @@
   ],
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
   }

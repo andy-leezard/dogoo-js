@@ -13,12 +13,10 @@ pnpm changeset
 # How it's made
 
 ```bash
-pnpm add react
-pnpm add -D typescript tsup @types/react @changesets/cli
 git init
+pnpm changeset init
 pnpm run lint
 pnpm run build
-pnpm changeset init
 ```
 
 # License
