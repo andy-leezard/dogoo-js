@@ -1,0 +1,38 @@
+{
+  "name": "dogoo",
+  "version": "0.0.1",
+  "description": "A fully-typed light-weight javascript library for common utility functions. Compatible in any runtime.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
+    "export-module": "module-export.bat",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndyLeezard/dogoo-js.git"
+  },
+  "author": "Andy Lee <a.lee.intl@gmail.com> (https://github.com/AndyLeezard)",
+  "bugs": {
+    "url": "https://github.com/AndyLeezard/dogoo-js/issues"
+  },
+  "homepage": "https://github.com/AndyLeezard/dogoo-js#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "keywords": [
+    "generic",
+    "utility",
+    "functions"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
