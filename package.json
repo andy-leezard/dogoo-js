@@ -16,6 +16,13 @@
     "url": "https://github.com/AndyLeezard/dogoo-js.git"
   },
   "author": "Andy Lee <a.lee.intl@gmail.com> (https://github.com/AndyLeezard)",
+  "contributors": [
+    {
+      "name": "Louis PBS",
+      "email": "l.pin.podbelsek@gmail.com",
+      "url": "https://github.com/louis-pbs"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/AndyLeezard/dogoo-js/issues"
   },
