@@ -1,1 +1,2 @@
-export { normalizeStr } from "./normalizeStr"
+export { capitalize } from "./capitalize"
+export { normalize } from "./normalize"

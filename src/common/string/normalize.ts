@@ -1,4 +1,4 @@
-export const normalizeStr = (
+export const normalize = (
   str: string,
   unifyCase?: "uppercase" | "lowercase"
 ) => {
