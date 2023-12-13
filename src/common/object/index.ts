@@ -1,3 +1,3 @@
 export { isObject } from "./isObject"
-export { objectHas } from "./objectHas"
-export { deleteOwnProperty } from "./deleteOwnProperty"
+export { hasOwnProperties } from "./hasOwnProperties"
+export { deleteOwnProperties } from "./deleteOwnProperties"
